@@ -1,0 +1,36 @@
+.container {
+  background-color: greenyellow;
+  animation-name: Anime;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.box {
+  background-color: blue;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes anime {
+  0% {
+    color: red;
+    opacity: 1;
+  }
+  25% {
+    color: black;
+    opacity: 2;
+  }
+  75% {
+    color: indianred;
+    opacity: 3;
+  }
+  100% {
+    color: purple;
+    opacity: 1;
+  }
+}
